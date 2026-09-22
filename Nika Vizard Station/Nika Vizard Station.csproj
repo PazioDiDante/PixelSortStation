@@ -1,0 +1,78 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>PixelSortStation</AssemblyName>
+    <AssemblyTitle>PixelSortStation</AssemblyTitle>
+    <Product>PixelSortStation</Product>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Nika_Vizard_Station</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>assets\NikaVizardIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1.jpg" />
+    <None Remove="assets\NikaVizardIcon.ico" />
+    <None Remove="assets\NikaVizardLogo.png" />
+    <None Remove="assets\NikaVizardLogoBig.png" />
+    <None Remove="assets\sharpenpdn.png" />
+    <None Remove="Fonts\Arsenal-Bold.ttf" />
+    <None Remove="Fonts\Arsenal-BoldItalic.ttf" />
+    <None Remove="Fonts\Arsenal-Italic.ttf" />
+    <None Remove="Fonts\Arsenal-Regular.ttf" />
+    <None Remove="Fonts\Forza-Black.ttf" />
+    <None Remove="Fonts\Forza-BlackItalic.ttf" />
+    <None Remove="Fonts\Forza-Bold.ttf" />
+    <None Remove="Fonts\Forza-BoldItalic.ttf" />
+    <None Remove="Fonts\Forza-Book.ttf" />
+    <None Remove="Fonts\Forza-BookItalic.ttf" />
+    <None Remove="Fonts\Forza-Light.ttf" />
+    <None Remove="Fonts\Forza-LightItalic.ttf" />
+    <None Remove="Fonts\Forza-Medium.ttf" />
+    <None Remove="Fonts\Forza-MediumItalic.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="assets\NikaVizardIcon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\NikaVizardLogo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\NikaVizardLogoBig.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\sharpenpdn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="13.4.0" />
+    <PackageReference Include="Magick.NET.Core" Version="13.4.0" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1.jpg" />
+    <Resource Include="Fonts\Arsenal-Bold.ttf" />
+    <Resource Include="Fonts\Arsenal-BoldItalic.ttf" />
+    <Resource Include="Fonts\Arsenal-Italic.ttf" />
+    <Resource Include="Fonts\Arsenal-Regular.ttf" />
+    <Resource Include="Fonts\Forza-Black.ttf" />
+    <Resource Include="Fonts\Forza-BlackItalic.ttf" />
+    <Resource Include="Fonts\Forza-Bold.ttf" />
+    <Resource Include="Fonts\Forza-BoldItalic.ttf" />
+    <Resource Include="Fonts\Forza-Book.ttf" />
+    <Resource Include="Fonts\Forza-BookItalic.ttf" />
+    <Resource Include="Fonts\Forza-Light.ttf" />
+    <Resource Include="Fonts\Forza-LightItalic.ttf" />
+    <Resource Include="Fonts\Forza-Medium.ttf">
+    </Resource>
+    <Resource Include="Fonts\Forza-MediumItalic.ttf" />
+  </ItemGroup>
+
+</Project>
+

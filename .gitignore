@@ -1,0 +1,52 @@
+# Visual Studio and local IDE state
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+
+# Build output, generated packages, and caches
+[Bb]in/
+[Oo]bj/
+[Pp]ackages/
+artifacts/
+publish/
+TestResults/
+*.log
+*.pdb
+*.zip
+*.rar
+*.7z
+
+# Local secrets, credentials, and signing material
+.env
+.env.*
+!.env.example
+!.env.*.example
+secrets.json
+appsettings.Local.json
+appsettings.*.local.json
+NuGet.Config
+nuget.config
+*.pfx
+*.p12
+*.pem
+*.key
+*.publishsettings
+*.pubxml
+*.pubxml.user
+
+# Local image experiments and exports (keep repository artwork explicit)
+local-images/
+exports/
+scratch/
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local preparation report
+/PUBLICATION_REVIEW.md

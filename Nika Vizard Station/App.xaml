@@ -1,0 +1,16 @@
+﻿<Application
+    x:Class="Nika_Vizard_Station.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Nika_Vizard_Station.Styles"
+    StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <FontFamily x:Key="Forza">pack://application:,,,/Fonts/#Forza</FontFamily>
+            <FontFamily x:Key="Arsenal">pack://application:,,,/Fonts/#Arsenal</FontFamily>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles/CustomStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
